@@ -90,7 +90,6 @@ def convert_coords(input_neurons, synone, syntwo, back_propagate=True):
 
     for i in range(MEDIAL_NEURONS):
         for j in range(NEURONS_IN):
-            # todo? - flip synone to match book with [j][i]
             medin[i] += synone[i][j] * input_neurons[j]
         medout[i] = hyberbolic_tangent(medin[i])
 
@@ -139,7 +138,7 @@ def back_propagation(input_neurons, synone, syntwo, medin, medout, error):
     for i in range(MEDIAL_NEURONS):
         for j in range(NEURONS_OUT):
             sigma[i] += error[j] * syntwo[i][j]
-        # the derivative of the sigmoidal function (i.e. tanh(x)
+        # the derivative of the sigmoidal function (i.e. tanh(x))
         sigmoid[i] = 1 - (medin[i] ** 2)
 
     # adjust the first synaptic layer
