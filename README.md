@@ -4,6 +4,15 @@
 
 ---
 
+#### To Run:
+
+For a demo, run `python3 polarnet.py` (or `./polarnet.py`)
+
+![Cover](https://repository-images.githubusercontent.com/269819702/9d5fd800-ad04-11ea-8e9b-33eaecea9add)
+
+
+ ---
+
 #### Requirements (Python 3)
 
 * `numpy` - for crunching numbers
@@ -44,12 +53,3 @@ To make testing easier, set the random seed to some fixed value to make each tes
 (Uncomment line starting `# seed(10)`)
 
 ---
-
-#### Running
-
-Simply run without any args:
-`python3 polarnet.py` (or `./polarnet.py`)
-
-![Cover](https://repository-images.githubusercontent.com/269819702/9d5fd800-ad04-11ea-8e9b-33eaecea9add)
-
- ---
