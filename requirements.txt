@@ -4,7 +4,7 @@
 colorama == 0.4.3
 
 # neuralnet/polarnet.py: 11
-numpy == 1.18.1
+numpy == 1.22.0
 
 # neuralnet/polarnet.py: 16
 termplotlib == 0.3.1
